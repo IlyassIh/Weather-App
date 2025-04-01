@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Title */
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Dropdown & Button */
+select, button {
+    width: 80%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+select {
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* Weather Card */
+.weather-card {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.weather-card p {
+    font-size: 18px;
+    opacity: 0.8;
+}
