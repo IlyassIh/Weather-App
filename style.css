@@ -10,7 +10,6 @@ body {
     margin: 0;
 }
 
-/* Container */
 .container {
     background: rgba(255, 255, 255, 0.1);
     padding: 25px;
@@ -21,13 +20,12 @@ body {
     backdrop-filter: blur(10px);
 }
 
-/* Title */
+
 h2 {
     font-size: 22px;
     margin-bottom: 15px;
 }
 
-/* Dropdown & Button */
 select, button {
     width: 80%;
     padding: 12px;
@@ -55,7 +53,6 @@ button:hover {
     background: #e68900;
 }
 
-/* Weather Card */
 .weather-card {
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.2);
@@ -73,3 +70,21 @@ button:hover {
     font-size: 18px;
     opacity: 0.8;
 }
+
+footer {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
