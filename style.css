@@ -88,3 +88,56 @@ footer p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@media (max-width: 768px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    select, button {
+        width: 90%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .weather-card h1 {
+        font-size: 30px;
+    }
+
+    .weather-card p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    select, button {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .weather-card h1 {
+        font-size: 24px;
+    }
+
+    .weather-card p {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
+
